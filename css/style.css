@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+p {
+    font-weight: 200;
+}
+
+/* nav start */
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 5rem;
+    box-shadow: 0 1px 10px rgba(154, 154, 154, 0.292);
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 3rem;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav .nav-btn a {
+    background-color: rgb(0, 226, 60);
+    text-decoration: none;
+    color: white;
+    padding: 12px 26px;
+    border-radius: 8px;
+}
+/* nav end */
+
+/* hero start*/
+#herosection {
+    padding: 3rem;
+}
+
+#herosection h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+#herosection p {
+    text-align: center;
+    padding: 2rem 0;
+    line-height: 1.5rem;
+}
+
+#herosection .hero-btn {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#herosection .hero-btn a:nth-child(1) {
+    background-color: rgb(0, 226, 60);
+    text-decoration: none;
+    color: white;
+    padding: 12px 26px;
+    border-radius: 8px;
+    margin: .5rem;
+
+}
+
+#herosection .hero-btn a:nth-child(2) {
+    background-color: white;
+    text-decoration: none;
+    color: rgb(0, 226, 60);
+    padding: 12px 45px;
+    border-radius: 8px;
+    margin: .5rem;
+
+}
+
+.image {
+    text-align: center;
+    padding: 1rem;
+}
+
+#herosection .image img {
+    height: auto;
+    width: 80%;
+
+}
+/* hero ends */
+
+
+/* client start */
+#clients-section h3 {
+    text-align: center;
+    padding: 1rem 0;
+}
+
+#clients-section p {
+    font-size: 14px;
+    text-align: center;
+}
+
+#clients-section .main {
+    display: grid;
+}
+
+.main {
+    margin: 2rem 18rem 4rem 18rem;
+    display: flex;
+}
+
+.main>.container {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 30%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+ .item{
+    background-color: whitesmoke;
+    margin-top: 1rem;
+    flex-basis: 18%;
+}
+.item>img{
+    height: 80px;
+    width: 160px;
+}
+
+
+/* why */
+#why-section {
+    background-color: rgb(31, 31, 31);
+    color: white;
+    padding: 3rem 0;
+}
+
+#why-section .why-heading {
+    padding: 2rem;
+}
+
+#why-section .container {
+    padding-left: 2rem;
+    display: flex;
+}
+
+#why-section .container div {
+    padding-right: 2rem;
+}
+/* why ends*/
+/* client ends */
+
+#last-section .last-section {
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+}
+
+#last-section .last-section .texts {
+    padding-right: 5rem;
+}
+
+.image2 img {
+    height: auto;
+    width: 80%;
+
+}
+
+.texts2 {
+    padding: 3rem 1rem;
+}
+
+.texts2 h4 {
+    padding: .5rem 0;
+}
+
+.texts2 p {
+    padding-bottom: 3rem;
+}
+
+.container-last {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    margin-bottom: 10rem;
+}
+
+.container-last .nav-btn a {
+    background-color: rgb(0, 226, 60);
+    text-decoration: none;
+    color: white;
+    padding: 12px 26px;
+    text-align: center;
+    border-radius: 8px;
+}
